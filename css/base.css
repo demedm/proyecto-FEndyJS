@@ -1,0 +1,35 @@
+/* Base Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Fascinate&family=Mozilla+Text:wght@200..700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root {
+   --color-primary: #ea7887;
+   --color-secondary: #c0ccfa;
+   --color-light: #ffffff;
+   --color-background: #f3f4f6;
+   --color-text: #374151;
+   --color-border: #d1d5db;
+
+   --shadow: 0 2px 8px rgba(58, 58, 58);
+
+   --radius-md: 1rem;
+   --radius-lg: 1.5rem;
+
+   --transition: all 0.3s ease;
+
+   --font-main: 'Mozilla Text', sans-serif;
+   --font-logo: 'Fascinate', system-ui;
+   --font-tittles: 'DynaPuff', system-ui;
+}
+
+html {
+   font-size: 15px;
+   scroll-behavior: smooth;
+}
+
